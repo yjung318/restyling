@@ -78,7 +78,7 @@
     "lint-fix": "tsc --noEmit && eslint src/**/*.ts{,x} -c eslintrc.js --fix",
     "pre-pr": "npm run format && npm run lint-fix && npm run test && npm run build",
     "deploy": "gh-pages -d build",
-    "predeploy": "npm run buildGhPages"
+    "predeploy": "npm run build"
   },
   "browserslist": {
     "production": [
