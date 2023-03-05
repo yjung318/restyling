@@ -66,6 +66,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
+    "homepage":"https://yjung318.github.io/restyling",
     "dev": "next dev",
     "build": "next build",
     "export": "next export",
